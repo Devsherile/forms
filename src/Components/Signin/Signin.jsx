@@ -15,16 +15,16 @@ const Signin = () => {
       </div>
       <div className="inputs">
       {action==="Login"?<div></div>:<div className="input">
-      <IoPersonCircleOutline />
+      <IoPersonCircleOutline className="person"/>
       <input type="text" placeholder="Name" />
     </div>}
         
         <div className="input">
-          <MdOutlineMail />
+          <MdOutlineMail className="mail"/>
           <input type="email" placeholder="Email"/>
         </div>
         <div className="input">
-          <RiLockPasswordLine />
+          <RiLockPasswordLine className="password" />
           <input type="password" placeholder="Password"/>
         </div>
       </div>
